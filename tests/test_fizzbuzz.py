@@ -83,12 +83,12 @@ def test_works_with_15():
         ]
 
     # Act
-    answer = fizzbuzz(num)
+    actual_result = fizzbuzz(num)
 
     # Assert
-    assert len(answer) == len(expected_answer)
+    assert len(actual_result) == len(expected_answer)
 
     for index in range(0, len(expected_answer)):
-        assert answer[index] == expected_answer[index]
+        assert actual_result[index] == expected_answer[index]
 
 
